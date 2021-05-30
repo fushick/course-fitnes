@@ -1,0 +1,328 @@
+body {
+  margin: auto;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin: 0px;
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.header_img {
+  display: inline-block;
+}
+
+header img {
+  float: left;
+  width: 650px;
+}
+
+.header_text {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 155px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 45px;
+}
+
+/**main**/
+
+.main {
+  width: 100%;
+}
+
+.main_left {
+  float: left;
+  width: 655px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.main_right {
+  float: left;
+  width: 650px;
+
+  border: 5px solid #bfadad;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+
+
+.main_text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
+.main_text_right {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+table {
+  font-size: 20px;
+  float: left;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 10px 70px 0px 0px;
+  border: 1px solid black;
+
+}
+
+
+.edit_profile {
+  width: 200px;
+  height: 45px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #440A67;
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  margin: 0px;
+}
+
+.btn_load {
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+
+
+.RB-title {
+  margin-left: 70px;
+}
+
+.RB-title p {
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0px;
+  margin-bottom: 15px;
+  float: left;
+  width: 100%;
+
+}
+
+.cart {
+  float: left;
+  width: 100%;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+
+
+.cart-check {
+  width: 100%;
+  margin-left: 40px;
+
+}
+
+
+.cart-check th {
+  padding: 15px 200px 15px 5px;
+
+}
+
+.cart-check td {
+  padding: 15px 200px 15px 5px;
+    font-size: 17px;
+}
+
+.price {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-cart {
+  margin-left: 35px;
+}
+
+
+/**form**/
+.form_profile {
+  margin-bottom: 35px;
+}
+
+.btn {
+  margin-top: 75px;
+}
+
+
+
+.form-text {
+  display: inline-block;
+}
+
+.form_profile select {
+  height: 30px;
+  width: 300px;
+  float: right;
+}
+
+.form-input {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.form-input-tel {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.form-input-name {
+  display: inline-block;
+  margin-left: 105px
+}
+
+.form_profile input {
+  height: 30px;
+  width: 370px;
+}
+
+.edit_profile {
+  font-size: 17px;
+  margin-top: 35px;
+}
+
+.main_left_block img {
+  border-radius: 100%;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  margin-top: 120px;
+}
+
+span {
+  text-decoration: none;
+  color: black;
+}
+
+.error-message {
+  border: 2px solid #b10000;
+  color: #b10000;
+  background-color: #FF7373;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  width: 525px;
+  height: 25px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+
+.error-message-img {
+  border: 2px solid #b10000;
+  color: #b10000;
+  background-color: #FF7373;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  width: 525px;
+  height: 25px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  margin-left: 45px;
+}
+
+.success-message {
+  border: 2px solid #228B22;
+  color:#228B22;
+  background-color:#00FA9A;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  width: 525px;
+  height: 25px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+
+}
+
+.success-message-delete {
+  border: 2px solid #440A67;
+  color:#440A67;
+  background-color:#B4AEE8;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  width: 525px;
+  height: 30px;
+  margin: auto;
+ margin-bottom: 25px;
+}
+
+
+/**popup**/
+.popup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+
+}
+
+.popup_body {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.popup_content {
+  background-color: white;
+  color: black;
+  max-width: 800px;
+  padding: 50px;
+  position: relative;
+}
+
+.popup_title {
+  font-size: 35px;
+  margin: 0px 0px 15px 40px;
+}
+
+.popup_close {
+  position: absolute;
+  right: 20;
+  top: 15;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.popup_link {
+  text-decoration: none;
+  color: white;
+}
+
+.popup_link:hover {
+  text-decoration: none;
+  color: white;
+}

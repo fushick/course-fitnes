@@ -1,0 +1,437 @@
+body {
+  margin:0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.FB-leftpic {
+  display: inline-block;
+}
+
+.FB-rightblock {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 220px;
+  margin-top: 40px;
+}
+
+.FB-menu li {
+  display: inline-block;
+}
+
+.FB-menu {
+  padding: 0px;
+  margin: 0px;
+  font-size: 18px;
+}
+
+
+.FB-menu a {
+  text-decoration: none;
+  color: black;
+  margin-right: 60px;
+}
+
+.btn-Reg {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #440A67;
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  margin: 0px;
+}
+
+.btn-Reg li a {
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.RB-title {
+  margin-top: 60px;
+}
+
+.RB-title p {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.RB-title-cart {
+  margin-top: 60px;
+  margin-left: 100px;
+
+}
+
+.RB-title-cart p {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.RB-text {
+  margin-top: 90px;
+  width: 600px;
+}
+
+/**second block**/
+.RB-title-second {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 100px 130px;
+}
+
+.SB-main {
+  margin-left: 130px;
+
+}
+
+input[type=password], input[type=tel], input[type=email], input[type=text] {
+  width: 525px;
+  height: 50px;
+  border: 2px solid #440A67;
+  border-radius: 15px;
+  margin-bottom: 45px;
+  padding-left: 25px;
+}
+
+input[type=password]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=text]:focus {
+  outline: none;
+}
+
+.autobtn {
+  width: 550px;
+  height: 60px;
+  color: white;
+  background-color: #B4AEE8;
+  border: 0px;
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+.autobtn:focus, .rgstrbtn:focus {
+  outline: none;
+}
+
+.RB-left-reg {
+  width: 650px;
+  display: inline-block;
+
+}
+
+.link-reg {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.RB-right-pic {
+  display: inline-block;
+  margin-left: 100px;
+}
+.RB-text p {
+  line-height: 1.5;
+
+}
+
+
+/**third block**/
+.RB-title-third {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 0px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  margin-left: 770px;
+}
+
+.TB-right-reg {
+  width: 650px;
+  display: inline-block;
+  margin-left: 300px;
+}
+
+.TB-left-pic {
+  display: inline-block;
+  margin-left: 150px;
+  vertical-align: top;
+}
+
+.rgstrbtn {
+  width: 550px;
+  height: 60px;
+  color: white;
+  background-color: #440A67;
+  border: 0px;
+  font-size: 25px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+/**fourth block**/
+.Abonement-block {
+  background-image: url(../pic/Rectangle.png);
+  width: 315px;
+  height: 450px;
+  display: inline-block;
+  margin: 75px;
+  margin-left: 110px;
+}
+
+.AB-in {
+  background-color: black;
+  border-radius: 15px;
+
+}
+
+.AB-text h2 {
+  padding: 30px 0px 0px 0px;
+  text-align: center;
+}
+
+.AB-text ul {
+  list-style-type: none;
+
+}
+
+.AB-text li {
+  padding: 8px 0px;
+}
+
+.AB-text h3 {
+  text-align: center;
+  padding: 25px 0px 0px 0px;
+}
+
+.buybtn {
+  color: white;
+  background-color: #440A67;
+  padding: 13px 35px;
+  margin-top: 15px;
+  font-size: 15px;
+  border-radius: 30px;
+  border: 0px;
+  margin-left: 90px;
+}
+
+.buybtn:focus {
+  border: 0px;
+  outline: none;
+}
+
+.buybtn_after {
+  color: white;
+  background-color: #440A67;
+  padding: 13px 35px;
+  margin-top: 15px;
+  font-size: 15px;
+  border-radius: 30px;
+  border: 0px;
+  margin-left: 90px;
+}
+
+.buybtn_after:focus {
+  border: 0px;
+  outline: none;
+}
+
+
+.cart {
+  float: left;
+  width: 100%;
+  margin-left: 65px;
+  margin-top: 25px;
+}
+
+
+
+.cart-check {
+  width: 100%;
+  margin-left: 40px;
+}
+
+.cart-check th {
+  padding: 15px 250px 15px 5px;
+  background-color: #B4AEE8;
+
+}
+
+
+
+footer {
+  background-color: #440A67;
+  width: 100%;
+  height: 100px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+
+/**error message**/
+
+.error-message {
+  border: 2px solid #b10000;
+  color: #b10000;
+  background-color: #FF7373;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  width: 525px;
+  height: 25px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  border: 2px solid #440A67;
+  color:#440A67;
+  background-color:#B4AEE8;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  width: 525px;
+  height: 30px;
+  margin: auto;
+}
+
+.link-buy {
+  color: white;
+  text-decoration: none;
+
+}
+
+/**popup**/
+.popup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+
+}
+
+.popup_body {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.popup_content {
+  background-color: white;
+  color: black;
+  max-width: 800px;
+  padding: 50px;
+  position: relative;
+}
+
+.popup_title {
+  font-size: 35px;
+  margin: 0px 0px 15px 0px;
+}
+
+.popup_close {
+  position: absolute;
+  right: 20;
+  top: 15;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.popup_link {
+  text-decoration: none;
+  color: white;
+}
+
+.popup_link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/**service-block**/
+.service-block {
+  margin-top: 100px;
+  margin-bottom: 150px;
+
+}
+
+.carusel {
+  margin-bottom: 55px;
+}
+
+.carusel-container {
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+  border: 5px solid #B4AEE8;
+
+}
+
+.carusel-container img {
+  display: block;
+  width: 100%;
+}
+
+.carusel-slide {
+  display: flex;
+  height: 400px;
+}
+
+.center {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 0px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.center p {
+  text-align: center;
+}
+.btn-carusel {
+  margin-left: 35%;
+}
+
+.btn-carusel button {
+  padding: 0px 80px;
+
+}
+
+.btn-carusel-left, .btn-carusel-right {
+  border: 0px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;s
+}
+
+.btn-carusel-left:focus, .btn-carusel-right:focus {
+  outline: none;
+}
+
+.pic-btn-carusel {
+  width: 60px;
+}
